@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:copy_components",
+              "include": [
+                "minecraft:custom_name"
+              ],
+              "source": "block_entity"
+            },
+            {
+              "function":"minecraft:set_components",
+              "components": {
+                "minecraft:tooltip_style": "raritytooltips:rare"
+              }
+            }
+          ],
+          "name": "minecraft:beacon"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:blocks/beacon"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": "minecraft:glass",
+    "O": "minecraft:obsidian",
+    "S": "minecraft:nether_star"
+  },
+  "pattern": [
+    "GGG",
+    "GSG",
+    "OOO"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:beacon",
+    "components": {
+      "minecraft:tooltip_style": "raritytooltips:rare"
+    }
+  }
+}

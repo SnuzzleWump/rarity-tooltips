@@ -1,0 +1,3 @@
+schedule clear raritytooltips:tick
+scoreboard objectives remove rt_fix_toggle
+scoreboard objectives remove rt_reference

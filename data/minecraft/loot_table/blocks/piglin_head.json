@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:piglin_head",
+          "functions": [
+            {
+              "function":"minecraft:set_components",
+              "components": {
+                "minecraft:tooltip_style": "raritytooltips:uncommon"
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:blocks/piglin_head"
+}

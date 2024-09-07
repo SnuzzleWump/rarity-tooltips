@@ -1,0 +1,21 @@
+{
+	"values": [
+		"minecraft:elytra",
+        "minecraft:dragon_head",
+        "minecraft:dragon_egg",
+        "minecraft:silence_armor_trim_smithing_template",
+        "minecraft:heavy_core",
+        "minecraft:mace",
+        "minecraft:barrier",
+        "minecraft:command_block",
+        "minecraft:chain_command_block",
+        "minecraft:repeating_command_block",
+        "minecraft:jigsaw",
+        "minecraft:light",
+        "minecraft:command_block_minecart",
+        "minecraft:structure_block",
+        "minecraft:structure_void",
+        "minecraft:debug_stick",
+        "minecraft:knowledge_book"
+	]
+}

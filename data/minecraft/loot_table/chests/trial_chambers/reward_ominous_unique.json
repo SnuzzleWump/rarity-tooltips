@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 3,
+          "functions": [
+            {
+              "function":"minecraft:set_components",
+              "components": {
+                "minecraft:tooltip_style": "raritytooltips:rare"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flow_armor_trim_smithing_template",
+          "weight": 3,
+          "functions": [
+            {
+              "function":"minecraft:set_components",
+              "components": {
+                "minecraft:tooltip_style": "raritytooltips:uncommon"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flow_banner_pattern",
+          "weight": 2,
+          "functions": [
+            {
+              "function":"minecraft:set_components",
+              "components": {
+                "minecraft:tooltip_style": "raritytooltips:uncommon"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_creator",
+          "functions": [
+            {
+              "function":"minecraft:set_components",
+              "components": {
+                "minecraft:tooltip_style": "raritytooltips:rare"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heavy_core",
+          "functions": [
+            {
+              "function":"minecraft:set_components",
+              "components": {
+                "minecraft:tooltip_style": "raritytooltips:epic"
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:chests/trial_chambers/reward_ominous_unique"
+}

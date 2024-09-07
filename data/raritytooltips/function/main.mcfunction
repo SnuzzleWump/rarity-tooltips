@@ -1,0 +1,2 @@
+execute as @e[tag=!tooltipped,type=minecraft:item,predicate=!raritytooltips:is_enchanted] run function raritytooltips:items
+execute as @e[tag=!tooltipped,type=minecraft:item,predicate=raritytooltips:is_enchanted] run function raritytooltips:enchanted_items

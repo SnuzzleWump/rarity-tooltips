@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:copy_components",
+              "source": "block_entity"
+            },
+            {
+              "function":"minecraft:set_components",
+              "components": {
+                "minecraft:tooltip_style": "raritytooltips:uncommon"
+              }
+            }
+          ],
+          "name": "minecraft:player_head"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:blocks/player_head"
+}

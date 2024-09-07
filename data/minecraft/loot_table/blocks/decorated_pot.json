@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:dynamic",
+              "conditions": [
+                {
+                  "block": "minecraft:decorated_pot",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "cracked": "true"
+                  }
+                }
+              ],
+              "name": "minecraft:sherds",
+              "functions": [
+                {
+                  "function":"minecraft:set_components",
+                  "components": {
+                    "minecraft:tooltip_style": "raritytooltips:uncommon"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "function": "minecraft:copy_components",
+                  "include": [
+                    "minecraft:pot_decorations"
+                  ],
+                  "source": "block_entity"
+                }
+              ],
+              "name": "minecraft:decorated_pot"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:blocks/decorated_pot"
+}
