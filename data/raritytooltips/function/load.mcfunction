@@ -1,1 +1,0 @@
-scoreboard objectives add rt_fix_toggle trigger

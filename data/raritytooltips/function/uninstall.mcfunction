@@ -1,1 +1,0 @@
-scoreboard objectives remove rt_fix_toggle
