@@ -1,6 +1,11 @@
 {
-  "pack": {
-      "description": "Rarity Tooltips by §lSnuzzle",
-      "pack_format": 52
-  }
+	"pack": {
+		"description": [
+			{"text":"Rarity Tooltips              ","color":"light_purple"},
+			{"text":"v1.1.1 ","color":"dark_gray"},
+			{"text":"by ","color":"gray"},
+			{"text":"Snuzzle","color":"#c6ebc8","bold":true}
+		],
+		"pack_format": 37
+	}
 }
